@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .burger {
+      display: block;
+    }
+  
+    .burger.active {
+      background-color: #555;
+    }
+  
+    .burger.active + .menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: #333;
+    }
+  
+    .burger.active + .menu a {
+      padding: 10px;
+    }
+    .car{
+      width: 300px;
+      height: 300px;
+      margin-top: -15%;
+    }
+   
+   .marque{
+    position: absolute;
+    /* top: 10%; */
+    margin-top: -30% !important;
+    font-size: 30px;
+   }
+   .intel{
+    margin-top: 10% !important;
+   }
+   .cars{
+    margin-top: -40% !important;
+   }
+   .artifi>img{
+    overflow: hidden;
+    /* background-color: blue; */
+    width: 452px !important;
+    height: 490px !important;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: -11%;
+    margin-left: -10%;
+   }
+
+   .image-slide img{
+  height: 48vh;
+    width: 120vw;
+  }
+  .vision-smart{
+    display: flex;
+    position: relative;
+    top: 10%;
+    background: none;
+  }
+  .vision{
+
+  }
+  .vision img{
+    height: 70px;
+    width: 90px;
+  
+    
+  }
+ 
+  }
+  
